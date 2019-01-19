@@ -1,0 +1,65 @@
+
+.container {
+  display: grid;
+  grid-columns: 1fr, 2fr, 1fr;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container_nav {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #404041;
+  text-align: center;
+  height: 50px
+}
+
+.container_2 {
+  text-align: center;
+}
+
+.input_form {
+  margin-top: 30px;
+  width: 300px;
+  height:
+}
+
+#number {
+  color: #ED458B;
+  font-size: 40px;
+  font-weight:bold;
+}
+
+#guesser {
+  color: #E6E7E8;
+  font-size: 40px;
+  font-weight:100;
+}
+
+.container_button {
+  display: inline-block;
+}
+
+.button {
+  background-color: #929497;
+  color: #FFFFFF;
+  padding: 5px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 20px;
+  margin: 1em;
+}
+
+.button:hover {
+  background-color: #EB008B;
+}
+
+.button:disabled {
+  background-color: #D0D2D3;
+}
+
+.display{
+  margin: 100px;
+}
+.reset {
+  width: 300px;
+}
