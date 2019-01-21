@@ -3,6 +3,7 @@
   <head>
     <link type="text/css" rel="stylesheet" href="./public/reset.css">
     <link type="text/css" rel="stylesheet" href="./public/style.css">
+    <script type="text/javascript" src="./public/scripts.js"></script>
     <title>Number Guesser</title>
   </head>
 
@@ -20,22 +21,22 @@
       <div class="container_2">
 
         <div class="form">
-            <input type="number" class="input_form" name="guess" placeholder="Enter your guess" > <br>
+            <input type="number" class="input_form" id="guess-input" placeholder="Enter your guess" ><br>
 
             <div class="container_button">
-              <button type="button" class="button" name="guess">Guess</button>
-              <button type="button" class="button" name="clear">Clear</button>
+              <button type="button" class="button" id="guess" onclick="gameOfThrones()">Guess</button>
+              <button type="button" class="button" id="clear" onclick="clearField()">Clear</button>
             </div>
         </div>
 
         <div class="display">
           <h4>Your last guess was</h4><br>
-          <h1 class="number_guess"> </h1>
-          <h4 id="dirrection"> </h4>
+          <h1 id="number_guess"> </h1>
+          <h4 id="message"> </h4>
         </div>
 
         <div class="container_button">
-          <button type="button" class="button reset" name="reset">reset</button>
+          <button type="button" class="button reset" disabled="true" id="reset" name="reset">reset</button>
         </div>
       </div>
       <div class="container_3">
